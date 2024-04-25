@@ -1,0 +1,36 @@
+/* Das ist ein CSS Kommentar */
+
+:root {
+    --elemente: #cea916;
+    --schriften: #763307;
+}
+
+h1, ::placeholder, p {
+    color: var(--schriften);
+}
+
+#kommentar {
+    height: 10em;
+    width: 25em;
+    margin-top: 3em;
+}
+
+button {
+    background-color: var(--elemente);
+    color:var(--schriften);
+}
+
+/* neu in Faban 4 */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#output {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
