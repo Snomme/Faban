@@ -1,5 +1,9 @@
 /* Das ist ein CSS Kommentar */
 
+* {
+    background-color: aqua;
+}
+
 :root {
     --elemente: #cea916;
     --schriften: #763307;
